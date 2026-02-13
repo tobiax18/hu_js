@@ -1,48 +1,54 @@
-📘 Módulo 3 – Proyectos JavaScript
+📘 Module 3 – JavaScript Projects
 
-Este repositorio contiene cuatro trabajos prácticos enfocados en el desarrollo de habilidades fundamentales en JavaScript, incluyendo manipulación del DOM, estructuras de datos, persistencia y consumo de APIs.
+This repository contains four practical JavaScript projects focused on learning core concepts such as user interaction, DOM manipulation, data persistence, and API integration using modern JavaScript (ES6+).
 
-🟢 Trabajo 1 – Sistema Interactivo de Mensajes
+📂 Repository Structure
 
-Archivo: sistema_interactivo.js
+Each project is organized in its own branch:
 
-Descripción
+trabajo-1-sistema-interactivo
 
-Programa en JavaScript que:
+trabajo-2-gestion-datos
 
-Solicita nombre y edad al usuario.
+trabajo-3-manipulacion-dom
 
-Valida que la edad sea un número.
+trabajo-4-mini-app-api
 
-Muestra mensajes dinámicos según la edad ingresada.
+🟢 Project 1 – Interactive Message System
 
-Conceptos aplicados
+File: sistema_interactivo.js
 
-let y const
+Description:
+This program interacts with the user by requesting their name and age, validates the input, and displays personalized messages based on the result.
 
-Tipos de datos
+Concepts used:
 
-prompt(), alert(), console.log(), console.error()
+let and const
 
-Condicionales (if / else)
+Data types
 
-Validación con isNaN()
+prompt(), alert()
 
-🟢 Trabajo 2 – Gestión de Datos con Objetos, Sets y Maps
+console.log(), console.error()
 
-Archivo: gestion_datos.js
+if / else conditionals
 
-Descripción
+Input validation
 
-Implementación de estructuras de datos avanzadas para organizar y manipular información de productos.
+🟢 Project 2 – Data Management with Objects, Sets, and Maps
 
-Conceptos aplicados
+File: gestion_datos.js
 
-Objetos
+Description:
+Product management system using advanced JavaScript data structures.
 
-Set (unicidad de datos)
+Concepts used:
 
-Map (clave – valor)
+Objects
+
+Set (unique values)
+
+Map (key-value structure)
 
 for...in
 
@@ -52,59 +58,45 @@ forEach()
 
 Object.keys(), Object.values(), Object.entries()
 
-Validación con typeof
+Type validation
 
-🟢 Trabajo 3 – Gestión Dinámica del DOM con Persistencia
+🟢 Project 3 – Notes App (DOM + Local Storage)
 
-Archivos:
+Files:
 
 manipulacion_dom.html
 
 manipulacion_dom.js
 
-Descripción
+Description:
+Web application that allows adding and removing notes dynamically with persistence using Local Storage.
 
-Mini aplicación web que permite:
+Concepts used:
 
-Agregar y eliminar notas dinámicamente.
+DOM manipulation
 
-Persistir datos usando Local Storage.
+createElement(), appendChild(), removeChild()
 
-Recuperar información al recargar la página.
+addEventListener()
 
-Conceptos aplicados
+Local Storage
 
-Manipulación del DOM (createElement, appendChild, removeChild)
+JSON.stringify(), JSON.parse()
 
-Eventos (addEventListener)
+🟢 Project 4 – Mini Web App with API Integration
 
-localStorage
-
-JSON.stringify() y JSON.parse()
-
-Validaciones básicas
-
-🟢 Trabajo 4 – Mini Aplicación Web con API y Persistencia
-
-Archivos:
+Files:
 
 index.html
 
 app.js
 
-Descripción
+Description:
+Complete web application that manages products with Local Storage persistence and API integration using Fetch.
 
-Aplicación web integral que permite:
+Concepts used:
 
-Agregar y eliminar productos.
-
-Persistir datos en Local Storage.
-
-Consumir una API con operaciones CRUD usando Fetch.
-
-Conceptos aplicados
-
-DOM dinámico
+Dynamic DOM manipulation
 
 Local Storage
 
@@ -114,32 +106,39 @@ async/await
 
 try...catch
 
-Validaciones de datos
+Data validation
 
-JSON Server para simulación de backend
-
-🚀 Tecnologías Utilizadas
+🚀 Technologies Used
 
 JavaScript
 
 HTML5
 
+DOM API
+
 Local Storage
 
 Fetch API
 
-JSON Server (para pruebas de API)
+JSON Server
 
-📌 Objetivo del Módulo
+Git & GitHub
 
-Consolidar el uso práctico de JavaScript moderno integrando:
+🎯 Learning Objective
 
-Estructuras de datos
+Apply modern JavaScript fundamentals including:
 
-Manipulación del DOM
+DOM manipulation
 
-Persistencia en navegador
+Data persistence
 
-Consumo de APIs
+Data structures
 
-Buenas prácticas y código estructurado
+API integration
+
+Clean code practices
+
+👨‍💻 Author
+
+Tobías Atehortúa
+Web Development Student
