@@ -1,144 +1,95 @@
-📘 Module 3 – JavaScript Projects
+# CRUDTASK Projects
 
-This repository contains four practical JavaScript projects focused on learning core concepts such as user interaction, DOM manipulation, data persistence, and API integration using modern JavaScript (ES6+).
+This repository contains four academic projects focused on building a Single Page Application (SPA) with full CRUD functionality using modern JavaScript (ES6+), modular architecture, and JSON Server as a backend.
 
-📂 Repository Structure
+---
+
+# Project Structure
 
 Each project is organized in its own branch:
 
-trabajo-1-sistema-interactivo
+* `hu_1-sistema-interactivo` → Authentication system (Register/Login)
+* `hu_2-gestion-de-datos` → User profile management
+* `hu_3-gestion-dinamica` → Task management (CRUD)
+* `hu_4-mini-app-web-con-api` → Full integrated SPA (CRUDTASK)
 
-trabajo-2-gestion-datos
+---
 
-trabajo-3-manipulacion-dom
+# Technologies Used
 
-trabajo-4-mini-app-api
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* JSON Server
+* SPA Architecture
+* Git and GitHub
 
-🟢 Project 1 – Interactive Message System
+---
 
-File: sistema_interactivo.js
+# Features
 
-Description:
-This program interacts with the user by requesting their name and age, validates the input, and displays personalized messages based on the result.
+* User registration
+* User login
+* Profile management
+* Task creation
+* Task editing
+* Task deletion
+* Task visualization
+* SPA navigation without page reload
 
-Concepts used:
+---
 
-let and const
+# Installation and Execution
 
-Data types
+## 1. Clone the repository
 
-prompt(), alert()
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+cd YOUR-REPOSITORY
+```
 
-console.log(), console.error()
+## 2. Install JSON Server
 
-if / else conditionals
+```bash
+npm install -g json-server
+```
 
-Input validation
+## 3. Run JSON Server
 
-🟢 Project 2 – Data Management with Objects, Sets, and Maps
+```bash
+json-server --watch db.json --port 3000
+```
 
-File: gestion_datos.js
+## 4. Run the Web Server
 
-Description:
-Product management system using advanced JavaScript data structures.
+```bash
+python -m http.server 8000
+```
 
-Concepts used:
+or
 
-Objects
+```bash
+npx http-server -p 8000
+```
 
-Set (unique values)
+---
 
-Map (key-value structure)
+# Learning Objectives
 
-for...in
+This project demonstrates:
 
-for...of
+* SPA architecture implementation
+* Modular JavaScript structure
+* CRUD operations
+* Frontend and backend integration
+* Git branch management
+* Clean and scalable code organization
 
-forEach()
+---
 
-Object.keys(), Object.values(), Object.entries()
-
-Type validation
-
-🟢 Project 3 – Notes App (DOM + Local Storage)
-
-Files:
-
-manipulacion_dom.html
-
-manipulacion_dom.js
-
-Description:
-Web application that allows adding and removing notes dynamically with persistence using Local Storage.
-
-Concepts used:
-
-DOM manipulation
-
-createElement(), appendChild(), removeChild()
-
-addEventListener()
-
-Local Storage
-
-JSON.stringify(), JSON.parse()
-
-🟢 Project 4 – Mini Web App with API Integration
-
-Files:
-
-index.html
-
-app.js
-
-Description:
-Complete web application that manages products with Local Storage persistence and API integration using Fetch.
-
-Concepts used:
-
-Dynamic DOM manipulation
-
-Local Storage
-
-Fetch API (GET, POST, PUT, DELETE)
-
-async/await
-
-try...catch
-
-Data validation
-
-🚀 Technologies Used
-
-JavaScript
-
-HTML5
-
-DOM API
-
-Local Storage
-
-Fetch API
-
-JSON Server
-
-Git & GitHub
-
-🎯 Learning Objective
-
-Apply modern JavaScript fundamentals including:
-
-DOM manipulation
-
-Data persistence
-
-Data structures
-
-API integration
-
-Clean code practices
-
-👨‍💻 Author
+# Author
 
 Tobías Atehortúa
-Web Development Student
+Developer
+
+Student project for academic purposes.
